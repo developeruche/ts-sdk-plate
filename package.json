@@ -46,7 +46,7 @@
     "@typescript-eslint/parser": "^5.18.0",
     "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
-    "eslint": "^8.13.0",
+    "eslint": "^9.25.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.1.0",
@@ -56,7 +56,7 @@
     "mocha": "^9.2.2",
     "prettier": "^2.6.2",
     "proxyquire": "^2.1.3",
-    "sinon": "^13.0.1",
+    "sinon": "^20.0.0",
     "sinon-chai": "^3.7.0",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
@@ -64,5 +64,9 @@
   "dependencies": {
     "buffer": "^6.0.3",
     "lodash": "^4.17.21"
-  }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"
 }
